@@ -1,0 +1,13 @@
+
+
+{
+  
+  "user": {
+    "firstName": "{{name.firstName}}",
+    "lastName": "{{name.lastName}}",
+    "phone": "{{phone.phoneNumber}}",
+    "email": "{{internet.email}}",
+    "password": "{{internet.password}}",
+    "repassword": "{{internet.password}}"
+  }
+}
