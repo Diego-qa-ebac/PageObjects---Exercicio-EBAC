@@ -17,7 +17,7 @@ describe('Teste de Autenticação', () => {
     homePage.openMenu('Account')  
     cy.get('[data-testid="signUp"] > .css-146c3p1').click()
    
-
+    //faker
     const firstName = faker.name.firstName();
     const lastName = faker.name.lastName();
     const phone = faker.phone.number();
