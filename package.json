@@ -1,14 +1,14 @@
 {
   "name": "cy-pageobjects",
   "version": "1.0.0",
-  "description": "Exemplo de PageObjects",
+  "description": "Exercício 23: criando uma branch do módulo 22",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run"
   },
   "repository": {
     "type": "git",
-    "url": "diegoportella"
+    "url": "diegoPortella"
   },
   "author": "",
   "license": "ISC",
