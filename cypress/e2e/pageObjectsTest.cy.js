@@ -10,10 +10,8 @@ describe('Teste de Autenticação', () => {
 
   beforeEach(() => {
     cy.setCookie('ebacStoreVersion', 'v2', {domain: 'lojaebac.ebaconline.art.br'} )
-    cy.visit('/')
-  });
+    cy.visit('/') ////
 
-  it('Deve fazer login com sucesso', () => {
     homePage.openMenu('Account')  
     cy.get('[data-testid="signUp"] > .css-146c3p1').click()
    
@@ -29,5 +27,26 @@ describe('Teste de Autenticação', () => {
     
     cy.get('[data-testid="create"] > .css-146c3p1').click()
     cy.get('[style="background-color: rgb(242, 242, 242);"] > :nth-child(1) > :nth-child(1) > :nth-child(1) > .r-1d5kdc7 > :nth-child(1) > :nth-child(1) > .r-13awgt0 > :nth-child(1) > .r-mh9cjk > [style="color: rgb(255, 255, 255); font-size: 20px; font-family: Montserrat-Bold;"]').should('have.text', 'EBAC Store')
+  });
+
+  it('As categorias devem estar visíveis', () => {
+    cy.intercept('GET', '**/public/getCategories', { fixture: 'categories.json' }).as('getCategories')
+    homePage.openSearchProduct()
+    homePage.openCategoriesFilter()
+    homePage.categories().should('have.length.greaterThan', 1)
+  })
+
+  it('As categorias devem estar vazias', () => {
+    cy.intercept('GET', '**/public/getCategories', { fixture: 'noCategories.json' }).as('getCategoriesEmpty')
+    homePage.openSearchProduct()
+    homePage.openCategoriesFilter()
+    homePage.categories().should('have.length', 1)
+  })
+
+  it('As categorias devem estar vazias com erro', () => {
+    cy.intercept('GET', '**/public/getCategories', { statusCode: 500 }).as('getCategoriesError')
+    homePage.openSearchProduct()
+    homePage.openCategoriesFilter()
+    homePage.categories().should('have.length', 1)
   })
 })

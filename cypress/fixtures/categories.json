@@ -1,0 +1,206 @@
+{
+    "success": true,
+    "categories": [
+        {
+            "_id": "67075222bfcdb23902a75227",
+            "name": "Acessórios",
+            "photo": "https://gururecomenda.com.br/wp-content/uploads/2023/09/pc-gamer.webp",
+            "createdAt": "2024-10-10T04:03:46.653Z",
+            "updatedAt": "2024-10-10T04:03:46.653Z",
+            "__v": 0
+        },
+        {
+            "_id": "67069e39bfcdb23902a74ef4",
+            "name": "denique",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-09T15:16:09.148Z",
+            "updatedAt": "2024-10-09T15:16:09.148Z",
+            "__v": 0
+        },
+        {
+            "_id": "67069e2ebfcdb23902a74ec4",
+            "name": "umquam",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-09T15:15:58.713Z",
+            "updatedAt": "2024-10-09T15:15:58.713Z",
+            "__v": 0
+        },
+        {
+            "_id": "67069c7cbfcdb23902a74e8e",
+            "name": "deinde",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-09T15:08:44.199Z",
+            "updatedAt": "2024-10-09T15:08:44.199Z",
+            "__v": 0
+        },
+        {
+            "_id": "67068c96bfcdb23902a74dde",
+            "name": "ab",
+            "photo": null,
+            "createdAt": "2024-10-09T14:00:54.112Z",
+            "updatedAt": "2024-10-09T15:16:01.189Z",
+            "__v": 0
+        },
+        {
+            "_id": "670686f5bfcdb23902a74d72",
+            "name": "colligo",
+            "photo": null,
+            "createdAt": "2024-10-09T13:36:53.097Z",
+            "updatedAt": "2024-10-09T15:08:46.630Z",
+            "__v": 0
+        },
+        {
+            "_id": "67068510bfcdb23902a74d4e",
+            "name": "conturbo",
+            "photo": null,
+            "createdAt": "2024-10-09T13:28:48.095Z",
+            "updatedAt": "2024-10-09T14:00:56.319Z",
+            "__v": 0
+        },
+        {
+            "_id": "67067922bfcdb23902a74d0d",
+            "name": "quidem",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-09T12:37:54.393Z",
+            "updatedAt": "2024-10-09T12:37:54.393Z",
+            "__v": 0
+        },
+        {
+            "_id": "6705d197c9760cdf2d968653",
+            "name": "Mouses",
+            "photo": "https://s.zst.com.br/cms-assets/2024/08/capa-melhor-mouse-gamer.webp",
+            "createdAt": "2024-10-09T00:43:03.583Z",
+            "updatedAt": "2024-10-09T00:43:03.583Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc3c2ac9760cdf2d965f8e",
+            "name": "triumphus",
+            "photo": null,
+            "createdAt": "2024-10-01T18:15:06.801Z",
+            "updatedAt": "2024-10-09T12:37:55.760Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc3b20c9760cdf2d965f73",
+            "name": "quis",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T18:10:40.570Z",
+            "updatedAt": "2024-10-01T18:10:40.570Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc39e1c9760cdf2d965f56",
+            "name": "verbum",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T18:05:21.524Z",
+            "updatedAt": "2024-10-01T18:05:21.524Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc3971c9760cdf2d965f39",
+            "name": "ante",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T18:03:29.744Z",
+            "updatedAt": "2024-10-01T18:03:29.744Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc3908c9760cdf2d965f33",
+            "name": "dens",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T18:01:44.757Z",
+            "updatedAt": "2024-10-01T18:01:44.757Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc38a1c9760cdf2d965f2b",
+            "name": "minus",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T18:00:01.225Z",
+            "updatedAt": "2024-10-01T18:00:01.225Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc3791c9760cdf2d965f25",
+            "name": "vitium",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T17:55:29.682Z",
+            "updatedAt": "2024-10-01T17:55:29.682Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc34a4c9760cdf2d965ee9",
+            "name": "Bottega",
+            "photo": null,
+            "createdAt": "2024-10-01T17:43:00.445Z",
+            "updatedAt": "2024-10-01T17:43:00.445Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc3355c9760cdf2d965ee7",
+            "name": "clam",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T17:37:25.884Z",
+            "updatedAt": "2024-10-01T17:37:25.884Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc3331c9760cdf2d965ee3",
+            "name": "aureus",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T17:36:49.162Z",
+            "updatedAt": "2024-10-01T17:36:49.162Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc3312c9760cdf2d965edf",
+            "name": "defetiscor",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T17:36:18.064Z",
+            "updatedAt": "2024-10-01T17:36:18.064Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc32cec9760cdf2d965edb",
+            "name": "cena",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T17:35:10.727Z",
+            "updatedAt": "2024-10-01T17:35:10.727Z",
+            "__v": 0
+        },
+        {
+            "_id": "66fc312ec9760cdf2d965ed5",
+            "name": "minima",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-10-01T17:28:14.842Z",
+            "updatedAt": "2024-10-01T17:28:14.842Z",
+            "__v": 0
+        },
+        {
+            "_id": "66f835c6995b0c7c4e35b6da",
+            "name": "Sacolas",
+            "photo": "https://www.zipmaster.com/wp-content/uploads/2022/04/Reusable-Cloth-Shopping-Bags-Rainbow-Pack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-09-28T16:58:46.277Z",
+            "updatedAt": "2024-10-01T00:59:53.379Z",
+            "__v": 0
+        },
+        {
+            "_id": "66f5a77f4252422517015594",
+            "name": "Vestuário",
+            "photo": "https://www.zipmaster.com/wpcontent/uploads/2022/04/Reusable-Cloth-Shopping-Bags-RainbowPack-200-Case-Reusable-Bags-B26-061-3-1000x1000.jpg.webp",
+            "createdAt": "2024-09-26T18:27:11.809Z",
+            "updatedAt": "2024-09-26T18:27:11.809Z",
+            "__v": 0
+        },
+        {
+            "_id": "66d60921a60ca1ef7fa04087",
+            "name": "Clothes",
+            "photo": "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/clothes1_1-1725303072663.webp",
+            "createdAt": "2024-09-02T18:51:13.051Z",
+            "updatedAt": "2024-09-02T18:51:13.051Z",
+            "__v": 0
+        }
+    ],
+    "totalCategory": 25
+}
