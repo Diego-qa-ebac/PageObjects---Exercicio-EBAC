@@ -1,0 +1,141 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-10-16T18:54:45.427Z",
+    "end": "2024-10-16T18:54:59.195Z",
+    "duration": 13768,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "94532b8c-ceec-48cd-b709-f31b4cf2c474",
+      "title": "",
+      "fullFile": "cypress\\e2e\\pageObjectsTest.cy.js",
+      "file": "cypress\\e2e\\pageObjectsTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "703410bd-7d40-4d4f-b39b-23a06cf17c7d",
+          "title": "Teste de Autenticação",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "As categorias devem estar visíveis",
+              "fullTitle": "Teste de Autenticação As categorias devem estar visíveis",
+              "timedOut": null,
+              "duration": 7086,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('GET', '**/public/getCategories', {\n  fixture: 'categories.json'\n}).as('getCategories');\nhomePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('have.length.greaterThan', 1);",
+              "err": {},
+              "uuid": "59ede5fd-1f5c-4ecb-b9f3-8af2e800ac09",
+              "parentUUID": "703410bd-7d40-4d4f-b39b-23a06cf17c7d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "As categorias devem estar vazias",
+              "fullTitle": "Teste de Autenticação As categorias devem estar vazias",
+              "timedOut": null,
+              "duration": 3255,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('GET', '**/public/getCategories', {\n  fixture: 'noCategories.json'\n}).as('getCategoriesEmpty');\nhomePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('have.length', 1);",
+              "err": {},
+              "uuid": "ad2337ae-be2c-469c-a03e-7e996cc09914",
+              "parentUUID": "703410bd-7d40-4d4f-b39b-23a06cf17c7d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "As categorias devem estar vazias com erro",
+              "fullTitle": "Teste de Autenticação As categorias devem estar vazias com erro",
+              "timedOut": null,
+              "duration": 3335,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('GET', '**/public/getCategories', {\n  statusCode: 500\n}).as('getCategoriesError');\nhomePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('have.length', 1);",
+              "err": {},
+              "uuid": "d25ab1e9-2823-4595-b5fe-6a595710c3f0",
+              "parentUUID": "703410bd-7d40-4d4f-b39b-23a06cf17c7d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "59ede5fd-1f5c-4ecb-b9f3-8af2e800ac09",
+            "ad2337ae-be2c-469c-a03e-7e996cc09914",
+            "d25ab1e9-2823-4595-b5fe-6a595710c3f0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13676,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-result",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportFilename": "[name]-result",
+        "html": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

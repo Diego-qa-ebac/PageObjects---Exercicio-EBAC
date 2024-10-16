@@ -1,0 +1,211 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "118.0.5993.159",
+  "config": {
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportFilename": "[name]-result",
+      "html": true
+    },
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "projectRoot": "C:\\Users\\diego\\API exercicios\\PageObjects---Exercicio-EBAC",
+    "projectName": "PageObjects---Exercicio-EBAC",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\Users\\diego\\API exercicios\\PageObjects---Exercicio-EBAC\\cypress\\downloads",
+    "env": {},
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalJustInTimeCompile": false,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\Users\\diego\\API exercicios\\PageObjects---Exercicio-EBAC",
+    "fixturesFolder": "C:\\Users\\diego\\API exercicios\\PageObjects---Exercicio-EBAC\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 63295,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "20.11.1",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\Users\\diego\\API exercicios\\PageObjects---Exercicio-EBAC\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\Users\\diego\\API exercicios\\PageObjects---Exercicio-EBAC\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\Users\\diego\\API exercicios\\PageObjects---Exercicio-EBAC\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "129",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "129.0.6668.101"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "129",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "129.0.2792.89"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 118,
+        "name": "electron",
+        "path": "",
+        "version": "118.0.5993.159"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\diego\\AppData\\Local\\Cypress\\Cache\\13.15.0\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.15.0",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.15.0",
+  "endedTestsAt": "2024-10-16T18:54:59.193Z",
+  "osName": "win32",
+  "osVersion": "10.0.22631",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "mochawesome",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 3,
+        "passes": 3,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-10-16T18:54:45.427Z",
+        "end": "2024-10-16T18:54:59.195Z",
+        "duration": 13768,
+        "testsRegistered": 3,
+        "passPercent": 100,
+        "pendingPercent": 0,
+        "other": 0,
+        "hasOther": false,
+        "skipped": 0,
+        "hasSkipped": false
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/Users/diego/API exercicios/PageObjects---Exercicio-EBAC/cypress/e2e/pageObjectsTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "pageObjectsTest",
+        "name": "pageObjectsTest.cy.js",
+        "relative": "cypress\\e2e\\pageObjectsTest.cy.js"
+      },
+      "stats": {
+        "duration": 13771,
+        "endedAt": "2024-10-16T18:54:59.193Z",
+        "failures": 0,
+        "passes": 3,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-10-16T18:54:45.422Z",
+        "suites": 1,
+        "tests": 3
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 7116,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "As categorias devem estar visíveis"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 3274,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "As categorias devem estar vazias"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 3363,
+          "state": "passed",
+          "title": [
+            "Teste de Autenticação",
+            "As categorias devem estar vazias com erro"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-10-16T18:54:45.422Z",
+  "totalDuration": 13771,
+  "totalFailed": 0,
+  "totalPassed": 3,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 1,
+  "totalTests": 3
+}
